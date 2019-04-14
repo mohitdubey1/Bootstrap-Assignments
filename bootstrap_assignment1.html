@@ -1,0 +1,452 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bootstrap Assignments</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+		$(document).ready(function(){
+			$('[data-toggle="popover"]').popover(); 
+		});
+</script>
+	</head>
+	<body class="modal-open navbar-collapse in">
+		<form role="form" name="info_frm" id="info_frm">
+			<div class="navbar navbar-inverse navbar-fixed-top">
+				<nav class="container">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header_nav" aria-expanded="false">
+								<span class="sr-only">Hello Navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#">
+								<sup><img alt="Brand" src="bootstrap1_image/Bootswatch_logo.jpg"></sup>
+							</a>
+						</div>
+						<div class="collapse navbar-collapse" id="header_nav">
+							<ul class="nav navbar-nav">
+								<li><a class="navbar-brand" href="#">Bootswatch</a></li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Themes<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="#">About HDT</a></li>
+										<li class="divider"></li>
+										<li><a href="#">Servicess</a></li>
+										<li><a href="#">Ebooks</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Help</a></li>
+								<li><a href="#">Blog</a></li>
+							</ul>
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="#">Built With Bootstrap</a></li>
+								<li><a href="#">WrapBootstrap</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">&nbsp;</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">&nbsp;</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">&nbsp;</div>
+			</div>
+			<div class="container">
+				<h1>Tables</h1>
+				<hr/>
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<th>#</th>
+							<th>Column heading</th>
+							<th>Column heading</th>
+							<th>Column heading</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>Column content</td>
+							<td>Column content</td>
+							<td>Column content</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>Column content</td>
+							<td>Column content</td>
+							<td>Column content</td>
+						</tr>
+						<tr class="info">
+							<td>3</td>
+							<td>Column content</td>
+							<td>Column content</td>
+							<td>Column content</td>
+						</tr>
+						<tr class="success">
+							<td>4</td>
+							<td>Column content</td>
+							<td>Column content</td>
+							<td>Column content</td>
+						</tr>
+						<tr class="danger">
+							<td>5</td>
+							<td>Column content</td>
+							<td>Column content</td>
+							<td>Column content</td>
+						</tr>
+						<tr class="warning">
+							<td>6</td>
+							<td>Column content</td>
+							<td>Column content</td>
+							<td>Column content</td>
+						</tr>
+						<tr class="default">
+							<td>7</td>
+							<td>Column content</td>
+							<td>Column content</td>
+							<td>Column content</td>
+						</tr>
+					</tbody>
+				</table>
+				<h6>&nbsp;</h6>
+				<h1>Navbar</h1>
+				<hr/>
+				<div class="navbar navbar-inverse">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#black_nav" aria-expanded="false">
+								<span class="sr-only">Hello Navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#">Brand</a>
+						</div>
+						<div class="collapse navbar-collapse" id="black_nav">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+								<li><a href="#">Link</a></li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="#">About HDT</a></li>
+										<li class="divider"></li>
+										<li><a href="#">Servicess</a></li>
+										<li><a href="#">Ebooks</a></li>
+									</ul>
+								</li>
+							</ul>
+							<div class="navbar-form navbar-left" role="search">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Search">
+								</div>
+								<button type="submit" class="btn navbar-inverse fa-inverse btn-primary">Submit</button>
+							</div>
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="#">Link</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="navbar btn-primary">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#blue_nav" aria-expanded="false">
+								<span class="sr-only">Hello Navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand fa-inverse" href="#">Brand</a>
+						</div>
+						<div class="collapse navbar-collapse" id="blue_nav">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="#" class="fa-inverse">Link <span class="sr-only">(current)</span></a></li>
+								<li><a href="#" class="fa-inverse">Link</a></li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle fa-inverse" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="#">About HDT</a></li>
+										<li class="divider"></li>
+										<li><a href="#">Servicess</a></li>
+										<li><a href="#">Ebooks</a></li>
+									</ul>
+								</li>
+							</ul>
+							<div class="navbar-form navbar-left" role="search">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Search">
+								</div>
+								<button type="submit" class="btn navbar-inverse btn-success">Submit</button>
+							</div>
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="#" class="fa-inverse">Link</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<h6>&nbsp;</h6>
+				<h1>Buttons</h1>
+				<hr/>
+				<div class="row">
+					<div class="col-lg-6">
+						<button type="button" name="dfl_btn" id="dfl_btn" class="btn navbar-inverse fa-inverse btn-primary">Default</button>
+						<button type="button" name="pri_btn" id="pri_btn" class="btn btn-primary">Primary</button>
+						<button type="button" name="success_btn" id="success_btn" class="btn btn-success">Success</button>
+						<button type="button" name="info_btn" id="info_btn" class="btn btn-info">Info</button>
+						<button type="button" name="war_btn" id="war_btn" class="btn btn-warning">Warning</button>
+						<button type="button" name="danger_btn" id="danger_btn" class="btn btn-danger">Danger</button>
+						<button type="button" name="link_btn" id="link_btn" class="btn btn-link">Link</button>
+						<div class="row">&nbsp;</div>
+						<button type="button" name="di_dfl_btn" id="di_dfl_btn" class="btn navbar-inverse disabled fa-inverse">Default</button>
+						<button type="button" name="di_pri_btn" id="di_pri_btn" class="btn btn-primary disabled">Primary</button>
+						<button type="button" name="di_success_btn" id="di_success_btn" class="btn btn-success disabled">Success</button>
+						<button type="button" name="di_info_btn" id="di_info_btn" class="btn btn-info disabled">Info</button>
+						<button type="button" name="di_war_btn" id="di_war_btn" class="btn btn-warning disabled">Warning</button>
+						<button type="button" name="di_danger_btn" id="di_danger_btn" class="btn btn-danger disabled">Danger</button>
+						<button type="button" name="dlink_btn" id="dlink_btn" class="btn btn-link disabled">Link</button>
+						<div class="row">&nbsp;</div>
+						<div class="btn-group">
+							<button type="button" class="btn navbar-inverse fa-inverse btn-primary">Default</button>
+							<button type="button" class="btn navbar-inverse dropdown-toggle fa-inverse btn-primary" data-toggle="dropdown">
+								<span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">Normat Black</a></li>
+								<li><a href="#">Default Black</a></li>
+							</ul>
+						</div>
+						<div class="btn-group">
+							<button type="button" class="btn btn-primary">Primary</button>
+							<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+								<span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">Smart phone</a></li>
+								<li><a href="#">Tablet</a></li>
+							</ul>
+						</div>
+						<div class="btn-group">
+							<button type="button" class="btn btn-success">Success</button>
+							<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+								<span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">Smart phone</a></li>
+								<li><a href="#">Tablet</a></li>
+							</ul>
+						</div>
+						<div class="btn-group">
+							<button type="button" class="btn btn-info">Info</button>
+							<button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+								<span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">Smart phone</a></li>
+								<li><a href="#">Tablet</a></li>
+							</ul>
+						</div>
+						<div class="btn-group">
+							<button type="button" class="btn btn-danger">warning</button>
+							<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+								<span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">Smart phone</a></li>
+								<li><a href="#">Tablet</a></li>
+							</ul>
+						</div>
+						<div class="row">&nbsp;</div>
+						<button type="button" name="large_btn" id="large_btn" class="btn btn-primary btn-lg">Large button</button>
+						<button type="button" name="default_button" id="default_button" class="btn btn-primary">Default button</button>
+						<button type="button" name="small_btn" id="small_btn" class="btn btn-primary btn-sm">Small button</button>
+						<button type="button" name="mini_btn" id="mini_btn" class="btn btn-primary btn-xs">Mini button</button>
+					</div>
+					<div class="col-lg-6">
+						<button type="button" class="btn navbar-inverse btn-block btn-lg btn-primary">Block level button</button>
+						<div class="row">&nbsp;</div>
+						<div class="btn-group btn-group-justified">
+							<a href="#" class="btn navbar-inverse fa-inverse btn-primary">Left</a>
+							<a href="#" class="btn navbar-inverse fa-inverse btn-primary">Middle</a>
+							<a href="#" class="btn navbar-inverse fa-inverse btn-primary">Right</a>
+						</div>
+						<div class="row">&nbsp;</div>
+						<div class="btn-group">
+							<button type="button" class="btn navbar-inverse fa-inverse btn-primary">1</button>
+							<button type="button" class="btn navbar-inverse fa-inverse btn-primary">2</button>
+							<button type="button" class="btn navbar-inverse fa-inverse btn-primary">3</button>
+							<button type="button" class="btn navbar-inverse fa-inverse btn-primary">4</button>
+						</div>
+						<div class="btn-group">
+							<button type="button" class="btn navbar-inverse fa-inverse btn-primary">5</button>
+							<button type="button" class="btn navbar-inverse fa-inverse btn-primary">6</button>
+							<button type="button" class="btn navbar-inverse fa-inverse btn-primary">7</button>
+						</div>
+						<div class="btn-group">
+							<button type="button" class="btn navbar-inverse fa-inverse btn-primary">8</button>
+							<button type="button" class="btn navbar-inverse fa-inverse dropdown-toggle btn-primary" data-toggle="dropdown">Dropdown
+								<span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">Smart phone</a></li>
+								<li><a href="#">Tablet</a></li>
+							</ul>
+						</div>
+						<div class="row">&nbsp;</div>
+						<div class="btn-group-vertical">
+							<button type="button" class="btn navbar-inverse fa-inverse btn-primary">Button</button>
+							<button type="button" class="btn navbar-inverse fa-inverse btn-primary">Button</button>
+							<button type="button" class="btn navbar-inverse fa-inverse btn-primary">Button</button>
+							<button type="button" class="btn navbar-inverse fa-inverse btn-primary">Button</button>
+						</div>
+					</div>
+				</div>
+				<h1></h1>
+				<div class="jumbotron">
+					<div class="row">
+						<div class="col-lg-4">
+							<img src="bootstrap1_image/graphics.jpg" alt="graphics.jpg" data-toggle="popover" title="Graphics Design" data-content="Corel Drow" data-placement="bottom"/>
+						</div>
+						<div class="col-lg-4">
+							<img src="bootstrap1_image/psd_desing.jpg" alt="psd_desing.jpg" data-toggle="popover" title="Psd Design" data-content="Photoshop" data-placement="bottom"/>
+						</div>
+						<div class="col-lg-4">
+							<img src="bootstrap1_image/logo_desing.jpg" alt="logo_desing.jpg" data-toggle="popover" title="Logo Design" data-content="Illustrate" data-placement="bottom"/>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="container">
+						<div class="col-lg-5">
+							<h4><label class="text-uppercase">about company</label></h4>
+							<hr/>
+							<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare velid metus. Vestibulum ante ipsum primis orci luctus et ultrices posuere cubilia curae; In eu libero ligula.</p>
+						</div>
+						<div class="col-lg-7">
+							<div class="row">
+								<div class="col-lg-2">Web Design</div><div class="col-lg-9"></div><div class="col-lg-1">88%</div>
+							</div>
+							<h4></h4>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 88%"></div>
+							</div>
+							<div class="row">
+								<div class="col-lg-3">Web Development</div><div class="col-lg-8"></div><div class="col-lg-1">78%</div>
+							</div>
+							<h4></h4>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 78%"></div>
+							</div>
+							<div class="row">
+								<div class="col-lg-2">Marketing</div><div class="col-lg-9"></div><div class="col-lg-1">82%</div>
+							</div>
+							<h4></h4>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 82%"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="thumbnail">
+							<img src="bootstrap1_image/psd_desing.jpg" alt="psd_desing.jpg"/>
+							<div class="caption">
+								<h5>Sports</h5>
+								<h4><label>Lorem ipsum dollor Sit amet</label></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="thumbnail">
+							<img src="bootstrap1_image/logo_desing.jpg" alt="logo_desing.jpg"/>
+							<div class="caption">
+								<h5>Sports</h5>
+								<h4><label>Lorem ipsum dollor Sit amet</label></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 row">
+						<div class="panel-group img-thumbnail" id="accordion"> 
+							<div class="panel">
+								<div class="panel-heading"> 
+									<h4 class="panel-title">
+										<img src="bootstrap1_image/responsive.jpg" alt="responsive.jpg"/>
+										<a data-toggle="collapse" data-parent="#accordion" href="#responsive_text"><b>100% Responsive Design</b></a>
+									</h4>
+								</div>
+								<div id="responsive_text" class="panel-collapse collapse in">
+									<div class="panel-body well">
+										Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
+									</div>
+								</div>
+							</div>
+							<div class="panel">
+								<div class="panel-heading"> 
+									<h4 class="panel-title">
+										<img src="bootstrap1_image/pixcel.jpg" alt="pixcel.jpg"/>
+										<a data-toggle="collapse" data-parent="#accordion" href="#pixel_text"><b>Pixel Perfect Design</b></a>
+									</h4>
+								</div>
+								<div id="pixel_text" class="panel-collapse collapse">
+									<div class="panel-body well">
+										Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
+									</div>
+								</div>
+							</div>
+							<div class="panel">
+								<div class="panel-heading"> 
+									<h4 class="panel-title">
+										<img src="bootstrap1_image/full.jpg" alt="full.jpg"/>
+										<a data-toggle="collapse" data-parent="#accordion" href="#full_text"><b>Full Support</b></a>
+									</h4>
+								</div>
+								<div id="full_text" class="panel-collapse collapse">
+									<div class="panel-body well">
+										Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">&nbsp;</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-7">
+							<h4>Typhography</h4>
+							<h1 class="text-muted">Heading 1</h1>
+							<h2 class="text-muted">Heading 2</h2>
+							<h3 class="text-muted">Heading 3</h3>
+							<h4 class="text-muted">Heading 4</h4>
+							<h5 class="text-muted">Heading 5</h5>
+							<h6 class="text-muted">Heading 6</h6>
+							<div class="row">&nbsp;</div>
+							<h4 class="text-uppercase text-muted"><strong>heading bold uppercase</strong></h4>
+							<h4 class="text-muted">heading semi bold lowercase</h4>
+							<h4 class="text-muted text-capitalize">heading light capitalize</h4>
+							<h4 class="text-muted">heading extra light lowercase</h4>
+						</div>
+						<div class="col-lg-5">
+							<h3>Alert</h3>
+							<div class="alert alert-success" role="alert"><strong>Well done!</strong> You successfully read this important alert message.</div>
+							<div class="alert alert-info" role="alert"><strong>Heads up!</strong> This alert needs your attention, but it's not super important.</div>
+							<div class="alert alert-warning" role="alert"><strong>Warning!</strong> Better check yourself, you're not looking too good.</div>
+							<div class="alert alert-danger" role="alert"><strong>Oh snap!</strong> Change a few things up and try submitting again.</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>

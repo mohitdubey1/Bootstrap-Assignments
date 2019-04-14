@@ -1,0 +1,387 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bootstrap Assignment2</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('[data-toggle="tooltip"]').tooltip(); 
+			});
+			$(document).ready(function(){
+				$('[data-toggle="popover"]').popover(); 
+			});
+		</script>
+	</head>
+	<body>
+		<form role="form" name="info_frm" id="info_frm">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h1>Panels and Wells</h1>
+					</div>
+				</div>
+				<hr/>
+				<div class="row">
+					<div class="col-lg-4">
+						 <div class="panel panel-default">
+							<div class="panel-heading">Default Panel</div>
+							<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</div>
+							<div class="panel-footer">Panel Footer</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						 <div class="panel panel-primary">
+							<div class="panel-heading">Primary Panel</div>
+							<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</div>
+							<div class="panel-footer">Panel Footer</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						 <div class="panel panel-success">
+							<div class="panel-heading">Success Panel</div>
+							<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</div>
+							<div class="panel-footer">Panel Footer</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4">
+						 <div class="panel panel-info">
+							<div class="panel-heading">Info Panel</div>
+							<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</div>
+							<div class="panel-footer">Panel Footer</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						 <div class="panel panel-warning">
+							<div class="panel-heading">Warning Panel</div>
+							<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</div>
+							<div class="panel-footer">Panel Footer</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						 <div class="panel panel-danger">
+							<div class="panel-heading">Danger Panel</div>
+							<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.</div>
+							<div class="panel-footer">Panel Footer</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">&nbsp;</div>
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="panel panel-default">
+							<div class="panel-heading">Basic Tabs</div>
+							<div class="panel-body">
+								<ul class="nav nav-tabs">
+									<li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+									<li><a data-toggle="tab" href="#profile">Profile</a></li>
+									<li><a data-toggle="tab" href="#message">Messages</a></li>
+									<li><a data-toggle="tab" href="#settings">Settings</a></li>
+								</ul>
+								<div class="tab-content">
+									<div id="home" class="tab-pane fade in active">
+										<h4>Home Tab</h4>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamca laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									</div>
+									<div id="profile" class="tab-pane fade">
+										<h4>Profile Tab</h4>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamca laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									</div>
+									<div id="message" class="tab-pane fade">
+										<h4>Message Tab</h4>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamca laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									</div>
+									<div id="settings" class="tab-pane fade">
+										<h4>Settings Tab</h4>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamca laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="panel panel-default">
+							<div class="panel-heading">Pill Tabs</div>
+							<div class="panel-body">
+								<ul class="nav nav-pills">
+									<li class="active"><a data-toggle="tab" href="#home_pills">Home</a></li>
+									<li><a data-toggle="tab" href="#profile_pills">Profile</a></li>
+									<li><a data-toggle="tab" href="#message_pills">Messages</a></li>
+								</ul>
+								<div class="tab-content">
+									<div id="home_pills" class="tab-pane active fade in">
+										<h4>Home Tab</h4>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamca laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									</div>
+									<div id="profile_pills" class="tab-pane fade">
+										<h4>Profile Tab</h4>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamca laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									</div>
+									<div id="message_pills" class="tab-pane fade">
+										<h4>Message Tab</h4>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamca laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									</div>
+								</div>
+							</div>
+							<h4></h4>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="well">
+							<h4>Normal Well</h4>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="well well-lg">
+							<h4>Large Well</h4>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="well well-sm">
+							<h4>Small Well</h4>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.
+						</div>
+					</div>
+				</div>
+				<div class="row">&nbsp;</div>
+				<h4></h4>
+				<div class="jumbotron">
+					<h1>Jumbotron</h1>
+					<h4 class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing.</h4>
+					<button type="button" name="learn_btn" id="learn_btn" class="btn btn-primary btn-lg">Lear More</button>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="panel panel-default">
+							<div class="panel-heading">Basic Form Elements</div>
+							<div class="panel-body">
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="form-group">
+											<label for="input_text">Text Input</label>
+											<input type="text" class="form-control" name="input_text" id="input_text"/>
+											<p class="text-muted">Example block-level help text here.</p>
+											<label for="placeholder_text">Text Input with Placeholder</label>
+											<input type="text" class="form-control" name="placeholder_text" id="placeholder_text" placeholder="Enter text"/>
+											<div class="row">&nbsp;</div>
+											<label>Static Control</label>
+											<p class="text-muted">email@example.com</p>
+											<label for="chose_file">File input</label>
+											<input type="file" name="chose_file" id="chose_file"/>
+											<div class="row">&nbsp;</div>
+											<label for="addr_textarea">Text area</label>
+											<textarea name="addr_textarea" id="addr_textarea" class="form-control"></textarea>
+											<div class="row">&nbsp;</div>
+											<label>Checkboxes</label>
+											<div class="checkbox">
+												<p><label><input type="checkbox" name="chk_1" id="chk_1" value="chk1"/> Checkbox 1</label></p>
+												<p><label><input type="checkbox" name="chk_2" id="chk_2" value="chk2"/> Checkbox 2</label></p>
+												<p><label><input type="checkbox" name="chk_3" id="chk_3" value="chk3"/> Checkbox 3</label></p>
+											</div>
+											<h4></h4>
+											<div class="checkbox">
+												<b>Inline Checkboxes</b>
+												<label><input type="checkbox" name="checkbox_1" id="checkbox_1" value="checkbox1"/> 1 </label>
+												<label><input type="checkbox" name="checkbox_2" id="checkbox_2" value="checkbox12"/> 2 </label>
+												<label><input type="checkbox" name="checkbox_3" id="checkbox_3" value="checkbox13"/> 3 </label>
+											</div>
+											<label>Radio Buttons</label>
+											<div class="radio">
+												<p><label><input type="radio" name="radio" id="radio1" checked="checked" value="r1">Radio 1</label><p>
+												<p><label><input type="radio" name="radio" id="radio2" value="r2">Radio 2</label></p>
+												<p><label><input type="radio" name="radio" id="radio3" value="r2">Radio 3</label></p>
+											</div>
+											<h4></h4>
+											<div class="radio">
+												<b>Inline Radio Buttons</b>
+												<label><input type="radio" name="option_1" id="option_radio1" checked="checked" value="radio1"> 1 </label>
+												<label><input type="radio" name="option_1" id="option_radio2" value="radio2"> 2 </label>
+												<label><input type="radio" name="option_1" id="option_radio3" value="radio3"> 3 </label>
+											</div>
+											<div class="row">&nbsp;</div>
+											<label for="one_select">Selects</label>
+											<select class="form-control" name="one_select" id="one_select">
+												<option value="1">1</option>
+												<option value="2">2</option>
+												<option value="3">3</option>
+												<option value="4">4</option>
+												<option value="5">5</option>
+											</select>
+											<h3></h3>
+											<label for="mul_select">Multiple Selects</label>
+											<select class="form-control" name="mul_select" id="mul_select" multiple="multiple">
+												<option value="1">1</option>
+												<option value="2">2</option>
+												<option value="3">3</option>
+												<option value="4">4</option>
+												<option value="5">5</option>
+											</select>
+											<div class="row">
+												<div class="col-lg-12">
+													<h3></h3>
+													<button type="button" name="submit_btn" id="submit_btn" class="btn btn-default">Submit Button</button>
+													<button type="button" name="reset_btn" id="reset_btn" class="btn btn-default">Reset Button</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<h1>Disabled Form States</h1>
+										<label for="disable_text">Disabled input</label>
+										<input type="text" name="disable_text" id="disable_text" class="form-control" disabled="disabled" placeholder="Disabled input"/>
+										<h3></h3>
+										<label class="disable_select">Disabled select menu</label>
+										<select name="disable_select" id="disable_select" class="form-control" disabled="disabled">
+											<option value="1">Disabled select</option>
+										</select>
+										<div class="checkbox">
+											<label><input type="checkbox" name="disable_chk" id="disable_chk" value="dis" disabled="disabled"/> Disabled Checkbox </label>
+										</div>
+										<button type="button" id="disable_btn" name="disable_btn" class="btn btn-primary" disabled="disabled">Disabled Button</button>
+										<h1>Form Validation States</h1>
+										<label for="success_text" class="text-success">Input with success</label>
+										<input type="text" name="success_text" id="success_text" class="form-control panel-success"/>
+										<h3></h3>
+										<label for="warning_text" class="text-warning">Input with warning</label>
+										<input type="text" name="warning_text" id="warning_text" class="form-control panel-warning"/>
+										<h3></h3>
+										<label for="error_text" class="text-danger">Input with success</label>
+										<input type="text" name="error_text" id="error_text" class="form-control panel-danger"/>
+										<h1>Input Groups</h1>
+										<div class="input-group">
+											<span class="input-group-addon">@</span>
+											<input name="user_text" id="user_text" type="text" class="form-control" placeholder="Username"/>
+										</div>
+										<h3></h3>
+										<div class="input-group">
+											<input name="number_text" id="number_text" type="text" class="form-control"/>
+											<span class="input-group-addon">.00</span>
+										</div>
+										<h3></h3>
+										<div class="input-group">
+											<span class="input-group-addon glyphicon glyphicon-eur"></span>
+											<input name="icon_text" id="icon_text" type="text" class="form-control" placeholder="Font Awesome Icon"/>
+										</div>
+										<h3></h3>
+										<div class="input-group">
+											<span class="input-group-addon">$</span>
+											<input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+											<span class="input-group-addon">.00</span>
+										</div>
+										<h3></h3>
+										<div class="input-group">
+											<input name="search_text" id="search_text" type="text" class="form-control"/>
+											<span class="input-group-addon glyphicon glyphicon-search"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="panel panel-default">
+							<div class="panel-heading">Alert Styles</div>
+							<div class="panel-body">
+								<div class="alert alert-success" role="alert">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong> Alert Link.</strong></div>
+								<div class="alert alert-info" role="alert">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong> Alert Link.</strong></div>
+								<div class="alert alert-warning" role="alert">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong> Alert Link.</strong></div>
+								<div class="alert alert-danger" role="alert">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong> Alert Link.</strong></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="panel panel-default">
+							<div class="panel-heading">Dismissable Alerts</div>
+							<div class="panel-body">
+								<div class="alert alert-success alert-dismissible" role="alert">
+									<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong> Alert Link.</strong>
+								</div>
+									<div class="alert alert-info alert-dismissible" role="alert">
+									<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong> Alert Link.</strong>
+								</div>
+									<div class="alert alert-warning alert-dismissible" role="alert">
+									<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong> Alert Link.</strong>
+								</div>
+									<div class="alert alert-danger alert-dismissible" role="alert">
+									<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong> Alert Link.</strong>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="panel panel-default">
+							<div class="panel-heading">Modals</div>
+							<div class="panel-body">
+								<button type="button" name="launch_btn" id="launch_btn" data-toggle="modal" data-target="#myModal" class="btn btn-primary btn-lg">Launch Demo Modal</button>
+								<div class="modal fade" id="myModal" role="dialog">
+									<div class="modal-dialog modal-sm">
+										<div class="modal-content">
+											<div class="modal-header">
+											  <button type="button" class="close" data-dismiss="modal">&times;</button>
+											  <h4 class="modal-title">Modal Header</h4>
+											</div>
+											<div class="modal-body">
+											  <p>This is a small modal.</p>
+											</div>
+											<div class="modal-footer">
+											  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="panel panel-default">
+							<div class="panel-heading">Tooltips and Popovers</div>
+							<div class="panel-body form-inline">
+								<h4>Tooltip Demo</h4>
+								<div class="form-control-static"><button type="button" data-toggle="tooltip" data-placement="left" title="Left Btn" name="left_tooltip" id="left_tooltip" class="btn btn-default btn-sm">Tooltip on left</button></div>
+								<div class="form-control-static"><button type="button" data-toggle="tooltip" data-placement="top" title="Top Btn" name="top_tooltip" id="top_tooltip" class="btn btn-default btn-sm">Tooltip on top</button></div>
+								<div class="form-control-static"><button type="button" data-toggle="tooltip" data-placement="bottom" title="Bottom Btn" name="bottom_tooltip" id="bottom_tooltip" class="btn btn-default btn-sm">Tooltip on bottom</button></div>
+								<div class="form-control-static"><button type="button" data-toggle="tooltip" data-placement="right" title="Right Btn" name="right_tooltip" id="right_tooltip" class="btn btn-default btn-sm">Tooltip on right</button></div>
+								<div class="row">&nbsp;</div>
+								<div class="row">&nbsp;</div>
+								<h4>Clickable Popover Demo</h4>
+								<div class="form-control-static"><button type="button" name="left_popove" id="left_popove" data-toggle="popover" title="Popover Header" data-content="Some content Left side" data-placement="left" class="btn btn-default btn-sm">Popover on left</button></div>
+								<div class="form-control-static"><button type="button" name="top_popove" id="top_popove" data-toggle="popover" title="Popover Header" data-content="Some content Top side" data-placement="top" class="btn btn-default btn-sm">Popover on top</button></div>
+								<div class="form-control-static"><button type="button" name="bottom_popove" id="bottom_popove" data-toggle="popover" title="Popover Header" data-content="Some content Bottom side" data-placement="bottom" class="btn btn-default btn-sm">Popover on bottom</button></div>
+								<div class="form-control-static"><button type="button" name="right_popove" id="right_popove" data-toggle="popover" title="Popover Header" data-content="Some content Right side" data-placement="right" class="btn btn-default btn-sm">Popover on right</button></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<ol class="breadcrumb">
+				  <li class="active">Home</li>
+				</ol>
+				<ol class="breadcrumb">
+				  <li><a href="#">Home</a></li>
+				  <li class="active">Library</li>
+				</ol>
+				<ol class="breadcrumb">
+				  <li><a href="#">Home</a></li>
+				  <li><a href="#">Library</a></li>
+				  <li class="active">Data</li>
+				</ol>
+			</div>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bootstrap Assignment5</title> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap_assignment5.css"/>		
+	</head>
+	<body>
+		<form id="jigyasa_frm" name="jigyasa_frm">
+			<div class="main">
+				<div class="container-fluid">
+					<div class="alert alert-success">	
+						<div><a href="#" class="alert-link">Where are my tabs?</a> Dear educator, welcome to the new educator tool. We have listened to you and have simplified tabs to make them easier to use. <a href="#" class="anchor_color">Click here to learn more..</a></div>					
+						<div class="checkbox inline margin_zero">
+							<label><input type="checkbox" value="show" id="show_chk" name="show_chk"/>Do not show again</label>
+							<a class="btn btn-default btn-sm" href="#">OK</a>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid">
+					<h5><b>Java SE 7 Programmer I</b></h5>
+					<div class="form_div"></div>
+					<div class="row">					
+						<div class="col-md-3 col-sm-5 col-xs-12 col-lg-3">			
+							<div class="form-group text-center">
+								<label>Section list</label>
+								<button type="button" name="base_btn" id="base_btn" class="btn btn-default btn-block set_button">
+									<span class="glyphicon glyphicon-ok pull-left"></span> 
+									<span class="margin_left pull-left">Base</span>
+								</button>
+								<p class="help-block h6 pull-left"><a href="#" class="show_text">Show archived sections</a></p>
+							</div>
+							<div class="btn"></div>
+							<div class="form-group">
+								<button type="button" id="new_create_btn" name="new_create_btn" class="btn btn-default btn-block">Create a new section</button>
+								<div class="h1"></div>
+								<button type="button" id="student_btn" name="student_btn" class="btn btn-default btn-block">Show students across all sections</button>					
+							</div>		
+						</div>										
+						<div class="col-md-9 col-sm-9 col-xs-12 col-lg-9 set_container">
+							<div class="col-md-5 col-sm-6 col-xs-12 col-lg-5">						
+								<div class="form-group">
+									<label for="setion_text">Section Name</label>
+									<input type="text" class="form-control" id="setion_text" name="setion_text" placeholder="Your section name here"/>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-2 col-xs-12 col-lg-3">									
+								<div class="form-group">
+									<label for="tag_text">Section Tag</label>
+									<input type="text" class="form-control" id="tag_text" name="tag_text" placeholder="Base" disabled="disabled"/>
+								</div>							
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12 col-lg-4">	
+								<div class="form-group">
+									<label for="key_text">Section Key</label>
+									<div class="input-group">
+										<input type="text" class="form-control" id="key_text" name="key_text" placeholder="K-MPZF-X8DU-EDND" disabled="disabled"/>
+										<span class="input-group-addon main"><span class="glyphicon glyphicon-file"></span></span>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-8 col-sm-8 col-xs-12 col-lg-8">
+								<div class="form-group">
+									<label for="description_text">Description</label>
+									<textarea class="form-control" rows="6" id="description_text" name="description_text" placeholder="Your section description here"></textarea>	
+									<div class="form-control-static pull-right text-muted">255 characters remaining</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12 col-lg-4">
+								<strong>Duration</strong>
+								<div class="row">
+									<div class="col-md-2 col-sm-2 col-xs-2 col-lg-3">
+										<label class="control-label set_margine">Starts</label>
+									</div>
+									<div class="col-md-10 col-sm-10 col-xs-10 col-lg-9">
+										<button type="button" name="on_day" id="on_day" class="btn btn-default btn-block">On the day of enrollment</button>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-5 col-sm-3 col-xs-3 col-lg-4">
+										<label class="control-label set_mar2">Ends In</label>
+									</div>								
+									<div class="col-md-3 col-sm-4 col-xs-3 col-lg-4 col-xs-pull-1">
+										<input type="number" name="end_number" id="end_number" class="form-control text-sm end_number" min="0" max="100" value="0"/>
+									</div>
+									<div class="col-md-4 col-sm-4 col-xs-5 col-lg-3">
+										<div class="h1"></div>
+										<label class="control-label day_txt">days</label>
+									</div>
+								</div>	
+								<div>
+									<label class="control-label">Mastery Level 90%</label>
+								</div>
+								<div class="row">
+									<div class="col-md-1 col-sm-1 col-xs-1 col-lg-1">
+										<span class="glyphicon glyphicon-minus"></span>
+									</div>
+									<div class="col-md-10 col-sm-10 col-xs-8 col-lg-12 rang_type">
+										<input type="range" name="rang_type" id="rang_type" min="0" max="100" value="90"/>
+									</div>
+									<div class="col-md-1 col-sm-1 col-xs-1 col-lg-1">
+										<span class="glyphicon glyphicon-plus sum_img"></span>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+								<strong>Teaching Assistants</strong>
+								<div class="alert alert-danger">No teaching assistants found. Please add teaching assistants to this section.</div>			
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12 col-lg-4 pull-right">	
+								<button type="button" name="new_btn" id="new_btn" class="btn btn-default pull-right">Add new</button>
+							</div>
+						</div>	
+					</div>
+				</div>	
+			</div>
+		</form>
+	</body>
+</html>
